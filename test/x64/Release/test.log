@@ -1,0 +1,174 @@
+﻿2018/01/31 16:55:56 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\utschoolwork\test\test\test.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"c:\Dxlib_VC\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /I"c:\dev\opencv-3.1.0\build\install\include" /I"c:\Users\mech-user\Downloads\WiiYourself\WiiYourself\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt AndroidLike.cpp BaseScene.cpp Clicker.cpp Config.cpp Music.cpp Game.cpp ISceneChanger.cpp main.cpp Menu.cpp MyFunc_cv.cpp MyFunc_music.cpp mywiimote.cpp my_effect.cpp my_math.cpp SceneMgr.cpp SongSelect.cpp test.cpp wiimote.cpp
+         AndroidLike.cpp
+         BaseScene.cpp
+         Clicker.cpp
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>Clicker.cpp(48): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Clicker.cpp(55): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         Config.cpp
+         Music.cpp
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(138): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'Count' の左辺を無視します。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(145): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'holdInfo' の左辺を無視します。
+     1>Music.cpp(25): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Music.cpp(105): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Music.cpp(309): warning C4244: '+=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         Game.cpp
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(138): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'Count' の左辺を無視します。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(145): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'holdInfo' の左辺を無視します。
+         ISceneChanger.cpp
+         main.cpp
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>main.cpp(85): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>main.cpp(86): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>main.cpp(98): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(99): warning C4244: '+=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(116): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>main.cpp(117): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>main.cpp(129): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(130): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(152): warning C4244: '=' : 'double' から 'short' への変換です。データが失われる可能性があります。
+     1>main.cpp(153): warning C4244: '=' : 'double' から 'short' への変換です。データが失われる可能性があります。
+     1>main.cpp(51): warning C4101: 'val_x' : ローカル変数は 1 度も使われていません。
+     1>main.cpp(51): warning C4101: 'val_y' : ローカル変数は 1 度も使われていません。
+     1>main.cpp(202): warning C4101: 's' : ローカル変数は 1 度も使われていません。
+         Menu.cpp
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         MyFunc_cv.cpp
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>MyFunc_cv.cpp(32): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_cv.cpp(35): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_cv.cpp(39): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_cv.cpp(43): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_cv.cpp(47): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_cv.cpp(51): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_cv.cpp(55): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         MyFunc_music.cpp
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(138): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'Count' の左辺を無視します。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(145): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'holdInfo' の左辺を無視します。
+     1>MyFunc_music.cpp(22): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(41): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(60): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(123): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(124): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(144): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(148): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(179): warning C4244: '=' : 'float' から 'short' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(180): warning C4244: '=' : 'float' から 'short' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(236): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(237): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(246): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(247): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(263): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(276): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(282): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(283): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(358): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(359): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(367): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(368): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(376): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(377): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(392): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(393): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(396): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(397): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(401): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(402): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(415): warning C4101: 'dy' : ローカル変数は 1 度も使われていません。
+     1>MyFunc_music.cpp(415): warning C4101: 'dx' : ローカル変数は 1 度も使われていません。
+     1>MyFunc_music.cpp(462): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>MyFunc_music.cpp(465): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>MyFunc_music.cpp(468): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>MyFunc_music.cpp(471): warning C4244: '+=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>MyFunc_music.cpp(481): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>MyFunc_music.cpp(484): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>MyFunc_music.cpp(487): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>MyFunc_music.cpp(490): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>MyFunc_music.cpp(496): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+         mywiimote.cpp
+     1>mywiimote.cpp(5): warning C4099: 'wiimote' : タイプ名は最初 'class' として使われていましたが 'struct' として使われています。
+                 d:\utschoolwork\test\test\wiimote.h(92) : 'wiimote' の宣言を確認してください。
+     1>mywiimote.cpp(6): warning C4099: 'wiimote' : タイプ名は最初 'class' として使われていましたが 'struct' として使われています。
+                 d:\utschoolwork\test\test\wiimote.h(92) : 'wiimote' の宣言を確認してください。
+         my_effect.cpp
+     1>my_effect.cpp(22): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>my_effect.cpp(23): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>my_effect.cpp(37): warning C4244: '+=' : 'float' から 'short' への変換です。データが失われる可能性があります。
+     1>my_effect.cpp(38): warning C4244: '+=' : 'float' から 'short' への変換です。データが失われる可能性があります。
+         my_math.cpp
+     1>my_math.cpp(12): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>my_math.cpp(17): warning C4244: '初期化中' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>my_math.cpp(18): warning C4244: '初期化中' : 'int' から 'float' への変換です。データが失われる可能性があります。
+         SceneMgr.cpp
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\utschoolwork\test\Library\opencv\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(138): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'Count' の左辺を無視します。
+     1>d:\utschoolwork\test\test\MyFunc_music.h(145): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'holdInfo' の左辺を無視します。
+         SongSelect.cpp
+     1>d:\utschoolwork\test\test\my_wii.h(23): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'myw_buf' の左辺を無視します。
+     1>d:\utschoolwork\test\test\my_wii.h(95): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\utschoolwork\test\test\my_wii.h(96): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         test.cpp
+         wiimote.cpp
+     1>wiimote.cpp(2502): warning C4267: '=' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\utschoolwork\test\x64\Release\test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:\Dxlib_VC\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /LIBPATH:"c:\dev\opencv-3.1.0\build\install\x64\vc12\lib" /LIBPATH:"c:\Users\mech-user\Downloads\WiiYourself\WiiYourself\lib" opencv_world310d.lib wiiuse.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\utschoolwork\test\x64\Release\test.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\utschoolwork\test\x64\Release\test.lib" /MACHINE:X64 x64\Release\AndroidLike.obj
+         x64\Release\BaseScene.obj
+         x64\Release\Clicker.obj
+         x64\Release\Config.obj
+         x64\Release\Music.obj
+         x64\Release\Game.obj
+         x64\Release\ISceneChanger.obj
+         x64\Release\main.obj
+         x64\Release\Menu.obj
+         x64\Release\MyFunc_cv.obj
+         x64\Release\MyFunc_music.obj
+         x64\Release\mywiimote.obj
+         x64\Release\my_effect.obj
+         x64\Release\my_math.obj
+         x64\Release\SceneMgr.obj
+         x64\Release\SongSelect.obj
+         x64\Release\test.obj
+         x64\Release\wiimote.obj
+         コード生成しています。
+     1>d:\utschoolwork\test\test\myfunc_music.cpp(353): warning C4715: 'judgenote' : 値を返さないコントロール パスがあります。
+         コード生成が終了しました。
+         test.vcxproj -> D:\utschoolwork\test\x64\Release\test.exe
+     1>プロジェクト "D:\utschoolwork\test\test\test.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:01:18.32
